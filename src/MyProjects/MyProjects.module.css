@@ -1,0 +1,25 @@
+.MyProjectsBlock{
+    height: 100vh;
+    background-color: aquamarine;
+    flex-wrap: wrap;
+}
+.MyProjectsContainer {
+     flex-direction: column;
+     justify-content: flex-start;
+    flex-wrap: wrap;
+ }
+.title {
+    background-color: aquamarine;
+    flex-wrap: wrap;
+}
+
+.projects {
+    border: 1px solid;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+}

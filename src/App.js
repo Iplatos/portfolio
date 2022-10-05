@@ -1,20 +1,22 @@
 import './App.css';
-import Header from "./Header/Header";
+import Header from "./header/Header"
+
+import React from "react";
 import Main from "./main/Main";
-import Skills from "./Skills/Skills";
-import MyProjects from "./MyProjects/MyProjects";
-import Accept from "./Accept/Accept";
-import Contacts from "./Contacts/Contacts";
-import Footer from "./Footer/Footer";
+import Skills from "./skills/Skills";
+import MyProjects from "./myProjects/MyProjects";
+import AboutWork from "./aboutWork/AboutWork";
+import Contacts from "./contacts/Contacts";
+import Footer from "./footer/Footer";
 
 function App() {
     return (
-        <div className="App">
+        <div className={"App"}>
             <Header/>
             <Main/>
             <Skills/>
             <MyProjects/>
-            <Accept/>
+            <AboutWork/>
             <Contacts/>
             <Footer/>
 

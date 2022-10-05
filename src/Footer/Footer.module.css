@@ -1,15 +1,23 @@
-.FooterContainer{
-    background-color: crimson;
+.footerContainer {
+    background-color: beige;
+    height: 50vh;
+}
+
+.footer {
+    background-color: aqua;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.items {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    text-align: center;
-}
-.footer{
-    background-color: blue;
-    height: 200px;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    min-width: 70%;
+
+}
+.item{
+    height:45px;
+    width: 45px;
+    background-color: blueviolet;
 }

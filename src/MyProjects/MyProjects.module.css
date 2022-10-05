@@ -1,25 +1,24 @@
-.MyProjectsBlock{
-    height: 100vh;
-    background-color: aquamarine;
-    flex-wrap: wrap;
-}
-.MyProjectsContainer {
-     flex-direction: column;
-     justify-content: flex-start;
-    flex-wrap: wrap;
- }
-.title {
-    background-color: aquamarine;
-    flex-wrap: wrap;
+.myProjectBlock{
+    background-color: darkslategrey;
 }
 
-.projects {
-    border: 1px solid;
-    width: 99%;
+.projectTitle{
+    text-align: center;
+background-color: greenyellow;
+    width: max-content;
+}
+.myProjects{
+    background-color: green;
+    border: 1px solid palevioletred;
+    display:flex;
+    flex-direction: column;
+}
+.projects{
+    background-color: aqua;
     display: flex;
     flex-direction: row;
+    border: 1px solid green;
     justify-content: space-around;
-    text-align: center;
-    align-content: center;
     flex-wrap: wrap;
+    width: 100%;
 }

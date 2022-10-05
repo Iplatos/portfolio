@@ -1,0 +1,24 @@
+.project {
+    border: 1px solid darkslategrey;
+    width: 200px;
+    text-align: center;
+    min-height: max-content;
+    flex-wrap: wrap;
+}
+
+.projectImg {
+    height: 300px;
+    width: 100%;
+    background-image: url("https://avatarko.ru/img/kartinka/33/multfilm_lyagushka_32117.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectDiscription {
+    background-color: hotpink;
+    padding: 15px;
+    box-sizing: border-box;
+}

@@ -1,16 +1,24 @@
 import React from 'react';
-import s from "./Footer.module.css";
-
+import style from "./Footer.module.css"
+import styleContainer from "../common/styles/Container.module.css";
 
 const Footer = () => {
     return (
-        <div className={s.FooterContainer}>
-            <div className={s.footer}>
+        <div className={style.footerContainer}>
+            <div className={`${styleContainer.container} ${style.footer}  `}>
 <div>Kirkor Filippov</div>
-                <div>vse prava lalalalalalala20201</div>
-            </div>
-        </div>
-    );
-};
+                <div className={style.items}>
+                    <div className={style.item}></div>
+                    <div className={style.item}></div>
+                    <div className={style.item}></div>
+                    <div className={style.item}></div>
+                </div>
+<div> © 2022 Все права защищены</div>
 
-export default Footer;
+                </div>
+
+
+            </div>
+          )
+            }
+export default Footer

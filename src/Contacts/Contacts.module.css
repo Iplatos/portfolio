@@ -22,3 +22,8 @@ background-color: aqua;
     border: 2px solid black;
 
 }
+@media screen and (min-width: 600px){
+    .formContainer {
+        width: 384px;
+    }
+}

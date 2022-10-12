@@ -1,9 +1,10 @@
 .project {
     border: 1px solid darkslategrey;
-    width: 200px;
+    width: 400px;
     text-align: center;
     min-height: max-content;
     flex-wrap: wrap;
+    margin-top: 17px;
 }
 
 .projectImg {

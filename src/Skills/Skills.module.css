@@ -1,6 +1,7 @@
 .skillBlock {
     min-height: 100vh;
-    background-color: darkcyan;
+    background-color: #3c3e41;
+    margin-bottom: 15px;
 
 
 }
@@ -23,4 +24,5 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 15px;
 }

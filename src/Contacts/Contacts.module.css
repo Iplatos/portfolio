@@ -10,7 +10,7 @@ background-color: aqua;
     justify-content: space-evenly;
 }
 .formContainer{
-    width: 80%;
+    width: 384px;
     background-color: blueviolet;
     height: max-content;
 }
@@ -22,8 +22,8 @@ background-color: aqua;
     border: 2px solid black;
 
 }
-@media screen and (min-width: 600px){
+@media screen and (max-width: 600px){
     .formContainer {
-        width: 384px;
+         width: 80%;
     }
 }

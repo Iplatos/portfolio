@@ -1,5 +1,5 @@
 .mainBlock {
-    background-color: gold;
+    background-color: #0d1426;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -24,8 +24,10 @@
     background-color: blue;
 }
 .titleName{
-    font-family: monospace;
+    font-family: font-family Radio Canada,sans-serif;
+    color:#72e2ae;
     width: 19ch;
+    margin:0px;
     overflow:hidden;
     white-space: nowrap;
     animation: MyName 1s steps(19);

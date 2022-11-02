@@ -4,7 +4,7 @@
 
     margin-top: 0px;
     text-align: center;
-background-color: #3c3e41;
+
     width: max-content;
     color: #c4cfde;
 }
@@ -18,7 +18,7 @@ background-color: #3c3e41;
     width: 100%;
 }
 .projectTitle h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Radio Canada', sans-serif;
     font-weight: 300;
     text-transform: capitalize;
     color: white;

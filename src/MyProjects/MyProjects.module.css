@@ -1,27 +1,28 @@
 .myProjectBlock{
-    background-color: #515151;
+    background-color: #0f172a;
 }
 
 .projectTitle{
 
     margin-top: 7px;
     text-align: center;
-background-color: #3c3e41;
+background-color: #0f172a;
     width: max-content;
     color: #c4cfde;
 }
 .myProjects{
-    background-color: #3c3e41;
+    background-color: #0f172a;
     display:flex;
     flex-direction: column;
 }
 .projects{
-    background-color: #3c3e41;
+    background-color: #0f172a;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
     width: 100%;
+    margin-bottom: 90px;
 }
 .projectTitle h2 {
     font-family: 'Poppins', sans-serif;
@@ -41,4 +42,14 @@ background-color: #3c3e41;
     width: 70px;
     height: 1px;
 transform: translate(-50%, 70%);
+}
+@media screen and (max-width:1004px){
+.projects {
+
+    justify-content: center;
+
+
+
+}
+
 }

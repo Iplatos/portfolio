@@ -9,7 +9,7 @@
 
 .projectImg {
     height: 300px;
-    width: 100%;
+    min-width: 100%;
     background-image: url("https://avatarko.ru/img/kartinka/33/multfilm_lyagushka_32117.jpg");
     background-size: cover;
     background-position: center;

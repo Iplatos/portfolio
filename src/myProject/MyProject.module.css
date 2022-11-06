@@ -1,25 +1,61 @@
 .project {
-    border: 1px solid darkslategrey;
+    border: 15px solid #162033;
+    border-radius: 10px;
     width: 400px;
     text-align: center;
     min-height: max-content;
     flex-wrap: wrap;
     margin-top: 17px;
-}
+    background-color:#162033 ;
 
-.projectImg {
+
+
+
+}
+.projectTitle{
+    font-family:'Radio Canada', sans-serif;
+    text-align: start;
+
+    width: 100%;
+    color: white;
+    background-color:#162033 ;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.projectInfo{
+margin-top: 10px;
+ }
+.MyProjectImage{
     height: 300px;
-    min-width: 100%;
-    background-image: url("https://avatarko.ru/img/kartinka/33/multfilm_lyagushka_32117.jpg");
+    width: 100%;
+    /* background-image: url("https://avatarko.ru/img/kartinka/33/multfilm_lyagushka_32117.jpg");*/
     background-size: cover;
     background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+}
+
+.projectImg button {
+
+    position: absolute;
+    left: 50%;
+     transform: translate(-50%, 300%);
+   -ms-transform: translate(-20%, -10%);
+     background-color: #555;
+   color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .projectDiscription {
-    background-color: hotpink;
-    padding: 15px;
+    background-color: #162033;
     box-sizing: border-box;
+    font-family: Radio Canada,sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    color:white;
 }
+

@@ -2,14 +2,7 @@
     background-color: #0f172a;
 }
 
-.projectTitle{
 
-    margin-top: 7px;
-    text-align: center;
-background-color: #0f172a;
-    width: max-content;
-    color: #c4cfde;
-}
 .myProjects{
     background-color: #0f172a;
     display:flex;
@@ -35,14 +28,7 @@ background-color: #0f172a;
     line-height: 1.2;
     position: relative;
 }
-.projectTitle::after{
-    content: "";
-    position: absolute;
-    background: silver;
-    width: 70px;
-    height: 1px;
-transform: translate(-50%, 70%);
-}
+
 @media screen and (max-width:1004px){
 .projects {
 

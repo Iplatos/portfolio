@@ -11,9 +11,9 @@ const Main = () => {
             <div className={styleContainer.container}>
             <div className={s.text}>
 
-            <span>Hi There</span>
+            <span className={s.greetingsTitle}>Hi There</span>
             <h1 className={s.titleName}>I'm Kirkor Filippov</h1>
-            <p>Frontend Developer</p>
+            <p className={s.greetingsTitle}>Frontend Developer</p>
             </div>
             <div className={s.photo}></div>
             </div>

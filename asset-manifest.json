@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cddc983e.css",
-    "main.js": "/portfolio/static/js/main.3dc09763.js",
+    "main.css": "/portfolio/static/css/main.7cb3e4bf.css",
+    "main.js": "/portfolio/static/js/main.a5fa539b.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/anthony-kiedis-suddeutsche-zeitung-magazine-im-with-you-red-hot-chili-peppers-rhcp-2011-image-001.jpg": "/portfolio/static/media/anthony-kiedis-suddeutsche-zeitung-magazine-im-with-you-red-hot-chili-peppers-rhcp-2011-image-001.6c973d57c7e2cb411bd5.jpg",
     "static/media/71.jpg": "/portfolio/static/media/71.17299c4f33157dc36dcc.jpg",
     "index.html": "/portfolio/index.html",
-    "main.cddc983e.css.map": "/portfolio/static/css/main.cddc983e.css.map",
-    "main.3dc09763.js.map": "/portfolio/static/js/main.3dc09763.js.map",
+    "main.7cb3e4bf.css.map": "/portfolio/static/css/main.7cb3e4bf.css.map",
+    "main.a5fa539b.js.map": "/portfolio/static/js/main.a5fa539b.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cddc983e.css",
-    "static/js/main.3dc09763.js"
+    "static/css/main.7cb3e4bf.css",
+    "static/js/main.a5fa539b.js"
   ]
 }

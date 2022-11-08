@@ -1,13 +1,13 @@
 import React from 'react';
-import style from "./MyProject.module.css"
+import style from "./MyProject.module.scss"
 
 const MyProject = (props) => {
     return (
         <div className={style.project}>
 
-            <div className={style.projectImg}>
-                <img className={style.MyProjectImage} style={props.style}></img>
-                <button>Смотреть</button>
+            <div className={style.MyProjectImage} style={props.style}>
+                {/*<img className={style.MyProjectImage} style={props.style}></img>*/}
+                <button className={style.button}>СМОТРЕТЬ</button>
 
 
             </div>

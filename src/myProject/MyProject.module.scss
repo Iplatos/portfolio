@@ -1,0 +1,97 @@
+@import "./src/common/styles/sass/variables";
+@import "./src/common/styles/sass/mixins";
+
+.project {
+  border: 15px solid #162033;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+  min-height: max-content;
+  flex-wrap: wrap;
+  margin-top: 17px;
+  background-color: #162033;
+
+  .MyProjectImage {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &:before {
+      position: absolute;
+      content: "";
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.5;
+    }
+      .button {
+        background-color: #72e2ae;
+        border: 0;
+        padding: 12px 70px 12px 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Radio Canada', sans-serif;
+        font-size: 18px;
+        border-radius: 0.25rem;
+        position: relative;
+        z-index: 1;
+        &:active {
+          background-color: black;
+        }
+      }
+
+  }
+
+
+
+  .projectInfo {
+    margin-top: 10px;
+
+    .projectTitle {
+      @include text (('Radio Canada', sans-serif),18px,1.5 );
+      /*font-family: 'Radio Canada', sans-serif;
+      font-size: 18px;
+      color: $textColor;
+      line-height: 1.5;*/
+
+      width: 100%;
+      text-align: start;
+      background-color: #162033;
+      font-weight: 400;
+
+    }
+
+    .projectDiscription {
+
+      @include text((Radio Canada, sans-serif),16px, 1.6);
+      font-family: Radio Canada, sans-serif;
+
+    /*  font-size: 16px;
+
+      color: $textColor;
+
+      line-height: 1.6;*/
+
+
+      font-weight: 400;
+      background-color: #162033;
+      box-sizing: border-box;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

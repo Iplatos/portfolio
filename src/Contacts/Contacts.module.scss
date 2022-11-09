@@ -1,0 +1,94 @@
+@import "./src/common/styles/sass/variables.scss";
+
+.contactsContainer {
+  background-color: $bgColor;
+  height: max-content;
+
+  .contacts {
+    background-color: $bgColor;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .formContainer {
+    width: 600px;
+    height: max-content;
+    @media screen and (max-width: 800px) {
+      width: 80%;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      height: 350px;
+      background-color: $bgSecondColor;
+      justify-content: space-around;
+      margin: 17px 0 90px 0;
+      border: 1px solid $ItemsBorderColor;
+      border-radius: 10px;
+      padding: 15px;
+
+
+      .formInput {
+        height: 45px;
+        background-color: $bgSecondColor;
+        border: 1px solid $ItemsBorderColor;
+        outline: 0;
+        outline-offset: 0;
+        border-radius: 10px;
+        color: grey;
+        font-family: 'Radio Canada', sans-serif;
+        font-size: 100%;
+        font-weight: 400;
+        padding: 0 16px;
+
+        &:focus {
+          border: 1px solid $greetingsAndButtonColor;
+        }
+      }
+
+      .formTextarea {
+        height: 150px;
+        background-color: #162033;
+        border: 1px solid #33394A;
+        outline: 0;
+        outline-offset: 0;
+        border-radius: 10px;
+        color: grey;
+        font-family: 'Radio Canada', sans-serif;
+        font-size: 100%;
+        font-weight: 400;
+        padding: 10px 16px;
+        min-height: 150px;
+        resize: none;
+
+
+        &:focus {
+          border: 1px solid $greetingsAndButtonColor;
+        }
+      }
+
+      .formButton {
+
+        background-color: #72e2ae;
+        padding: 12px 0 12px 0;
+        height: 46px;
+        width: 140px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Radio Canada', sans-serif;
+        font-size: 18px;
+        border-radius: 0.25rem;
+
+        &:active {
+          background-color: black;
+        }
+      }
+    }
+  }
+
+}
+

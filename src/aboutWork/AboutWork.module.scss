@@ -1,0 +1,48 @@
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
+
+.aboutWorkContainer {
+    background-color: $bgColor;
+
+    .takeMe {
+        background-color: $bgSecondColor;
+        height: 150px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid $ItemsBorderColor;
+        width: 80%;
+        justify-content: space-around;
+        align-items: center;
+        margin: 17px 0 90px 0;
+        .title {
+            @include text (('Radio Canada', sans-serif),18px,1.5 );
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .aboutWorkButton {
+
+            background-color: $greetingsAndButtonColor;
+            padding: 12px 0 12px 0;
+            height: 46px;
+            width: 140px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Radio Canada', sans-serif;
+            font-size: 18px;
+            border-radius: 0.25rem;
+
+            &:active {
+                background-color: black;
+            }
+        }
+
+    }
+    }
+
+
+
+

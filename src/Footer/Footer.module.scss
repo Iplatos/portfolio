@@ -1,0 +1,30 @@
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
+
+.footerContainer {
+    background-color: $bgColor;
+    height: 50vh;
+    .footer {
+    background-color: $bgColor;
+    flex-direction: column;
+    justify-content: space-around;
+}
+    .items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        min-width: 70%;
+        .item{
+            height:45px;
+            width: 45px;
+            background-color: $greetingsAndButtonColor;
+        }
+    }
+ .footerText{
+     @include text (('Radio Canada', sans-serif),20px,1.5 );
+     letter-spacing: 1.2px;
+ }
+}
+
+
+

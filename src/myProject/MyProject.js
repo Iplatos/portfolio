@@ -6,7 +6,7 @@ const MyProject = (props) => {
         <div className={style.project}>
 
             <div className={style.MyProjectImage} style={props.style}>
-                {/*<img className={style.MyProjectImage} style={props.style}></img>*/}
+
                 <button className={style.button}>СМОТРЕТЬ</button>
 
 

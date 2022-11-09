@@ -1,6 +1,6 @@
 import React from 'react';
 import style from "./MyProjects.module.scss"
-import styleContainer from "../common/styles/Container.module.css";
+import styleContainer from "../common/styles/Container.module.scss";
 import MyProject from "../myProject/MyProject";
 import Title from "../common/Components/Title/Title";
 import todoImage from "./../assets/image/anthony-kiedis-suddeutsche-zeitung-magazine-im-with-you-red-hot-chili-peppers-rhcp-2011-image-001.jpg"

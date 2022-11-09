@@ -2,14 +2,15 @@
 @import "./src/common/styles/sass/mixins";
 
 .project {
-  border: 15px solid #162033;
+  border: 1px solid $ItemsBorderColor;
   border-radius: 10px;
   width: 400px;
   text-align: center;
   min-height: max-content;
   flex-wrap: wrap;
   margin-top: 17px;
-  background-color: #162033;
+  background-color: $bgSecondColor;
+  padding: 15px;
 
   .MyProjectImage {
     height: 300px;
@@ -31,7 +32,7 @@
       opacity: 0.5;
     }
       .button {
-        background-color: #72e2ae;
+        background-color: $greetingsAndButtonColor;
         border: 0;
         padding: 12px 70px 12px 70px;
         display: flex;
@@ -56,11 +57,6 @@
 
     .projectTitle {
       @include text (('Radio Canada', sans-serif),18px,1.5 );
-      /*font-family: 'Radio Canada', sans-serif;
-      font-size: 18px;
-      color: $textColor;
-      line-height: 1.5;*/
-
       width: 100%;
       text-align: start;
       background-color: #162033;
@@ -72,14 +68,6 @@
 
       @include text((Radio Canada, sans-serif),16px, 1.6);
       font-family: Radio Canada, sans-serif;
-
-    /*  font-size: 16px;
-
-      color: $textColor;
-
-      line-height: 1.6;*/
-
-
       font-weight: 400;
       background-color: #162033;
       box-sizing: border-box;

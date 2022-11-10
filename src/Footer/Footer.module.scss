@@ -3,16 +3,18 @@
 
 .footerContainer {
     background-color: $bgColor;
-    height: 50vh;
+    height: max-content;
     .footer {
     background-color: $bgColor;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
     .items {
         display: flex;
+        margin-top: 50px;
+        margin-bottom: 50px;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         min-width: 70%;
         .item{
             height:45px;
@@ -21,7 +23,8 @@
         }
     }
  .footerText{
-     @include text (('Radio Canada', sans-serif),20px,1.5 );
+     margin-top: 17px;
+     @include text (('Radio Canada', sans-serif),21px,1.5 );
      letter-spacing: 1.2px;
  }
 }

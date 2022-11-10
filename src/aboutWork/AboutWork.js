@@ -7,8 +7,8 @@ const AboutWork = () => {
         <div className={style.aboutWorkContainer}>
              <div className={`${styleContainer.container} ${style.aboutWork}  `}>
                  <div className={style.takeMe}>
-                     <div className={style.title}>Рассматриваю варианты удалённой работы</div>
-                     <button className={style.aboutWorkButton}>нанять меня</button>
+                     <div className={style.title}>I'm available for Freelance</div>
+                     <button className={style.aboutWorkButton}>HIRE ME</button>
                  </div>
 
              </div>

@@ -5,10 +5,10 @@ import s from "./Nav.module.scss"
 const Nav = () => {
     return (
         <div className={s.nav}>
-<a href={""}>Главная </a>
-<a href={""}>Скиллы</a>
-<a href={""}>Проекты</a>
-<a href={""}>Контакты</a>
+<a href={""}>MAIN </a>
+<a href={""}>SKILLS</a>
+<a href={""}>PROJECTS</a>
+<a href={""}>CONTACTS</a>
 
         </div>
     );

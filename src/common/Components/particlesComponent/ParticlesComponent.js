@@ -40,7 +40,7 @@ const ParticlesComponent = () => {
                 },
                 particles: {
                     color: {
-                        value: "#ffffff",
+                        value: "4ade80",
                     },
 
                     collisions: {

@@ -6,6 +6,10 @@ import ParticlesComponent from "../common/Components/particlesComponent/Particle
 import Roll from 'react-reveal/Roll';
 import Fade from 'react-reveal/Fade';
 import LightSpeed from 'react-reveal/LightSpeed';
+import ReactTypingEffect from 'react-typing-effect';
+import Tilt from 'react-tilt'
+
+
 const Main = () => {
 const myPhoto = {
     backgroundImage: `url(${Photo})`
@@ -21,11 +25,20 @@ const myPhoto = {
                 <ParticlesComponent className={s.particles} />
                 < Fade left><span className={s.greetingsTitle}>Hi There</span></Fade>
                 <Roll right><h1 className={s.titleName}>I'm Kirkor <span>Filippov</span></h1></Roll>
-                <LightSpeed bottom><p className={s.greetingsTitle}>Frontend Developer</p></LightSpeed>
+                <p className={s.greetingsTitle}>
+                    <ReactTypingEffect text={["Frontend Developer"]} />
+                </p>
+
+
             </div>
+
                 <div className={s.PhotoContainer}>
                     <Roll right>
-                        <div className={s.photo} style={myPhoto}></div>
+                        <Tilt className="Tilt" options={{ max : 45 }} style={{ height: 500, width: 300 }} >
+                            <div className={s.photo} style={myPhoto}></div>
+                        </Tilt>
+
+
                     </Roll>
                 </div>
             </div>

@@ -22,7 +22,7 @@ const Skills = () => {
     return (
         <div className={style.skillBlock}>
             < div className={` ${style.skillsContainer} ${styleContainer.container} `}>
-                <Title text = {"My Skills"}/>
+                <Title text = {"My skills"}/>
                 <div className={style.skills}>
             <Skill title={"JS"} style={JsIcon} discription={"описание не очень большое"}/>
             <Skill title={"CSS"} style={CssIcon} discription={"описание не очень большое,не очень большое"}/>

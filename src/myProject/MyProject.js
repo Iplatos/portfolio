@@ -1,5 +1,6 @@
 import React from 'react';
 import style from "./MyProject.module.scss"
+import {Button} from "../common/Components/button/Button";
 
 const MyProject = (props) => {
     return (
@@ -7,9 +8,7 @@ const MyProject = (props) => {
 
             <div className={style.MyProjectImage} style={props.style}>
 
-                <div className={style.wrap}>
-                    <button className={style.button}>WATCH</button>
-                </div>
+                <Button title={"WATCH"}/>
 
 
             </div>

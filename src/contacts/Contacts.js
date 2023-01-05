@@ -3,7 +3,7 @@ import styleContainer from "../common/styles/Container.module.scss";
 import style from "./Contacts.module.scss"
 import Title from "../common/Components/Title/Title";
 import LightSpeed from 'react-reveal/LightSpeed';
-
+import {Button} from "./../common/Components/button/Button"
 const Contacts = () => {
     return (
         <div className={style.contactsContainer}>
@@ -15,7 +15,7 @@ const Contacts = () => {
             <input className={style.formInput} placeholder={"Enter your name"}></input>
             <input className={style.formInput} placeholder={"Enter your e-mail"}></input>
             <textarea className={style.formTextarea} placeholder={"textarea"}/>
-            <button type={"submit"} className={style.formButton}>SEND MAIL</button>
+            <Button title={"SEND MAIL"}/>
         </form>
     </LightSpeed>
 

@@ -27,8 +27,8 @@ const Skills = () => {
                 < div id="Skills" className={` ${style.skillsContainer} ${styleContainer.container} `}>
                     <LightSpeed top><Title text={"My skills"}/></LightSpeed>
                     <div className={style.skills}>
-                        <Rotate  top left >
-                        <Skill title={"JS"} style={JsIcon} discription={"описание не очень большое"}/>
+                            <Rotate  top left >
+                                <Skill title={"JS"} style={JsIcon} discription={"описание не очень большое"}/>
                         <Skill title={"CSS"} style={CssIcon}
                                discription={"описание не очень большое,не очень большое"}/>
                         <Skill title={"REACT"} style={ReactIcon}

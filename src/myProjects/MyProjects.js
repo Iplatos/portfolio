@@ -16,7 +16,7 @@ const MyProjects = () => {
         backgroundImage:  `url(${todoSocial})`,
     }
     return (
-        <div className={style.myProjectBlock}>
+        <div id="Projects" className={style.myProjectBlock}>
             <div className={`${styleContainer.container} ${style.myProjects}  `}>
                <Title text = {"My Projects"}/>
                 <div className={style.projects}>

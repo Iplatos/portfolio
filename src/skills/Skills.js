@@ -24,7 +24,7 @@ const Skills = () => {
     return (
         <div className={style.skillBlock}>
 
-                < div className={` ${style.skillsContainer} ${styleContainer.container} `}>
+                < div id="Skills" className={` ${style.skillsContainer} ${styleContainer.container} `}>
                     <LightSpeed top><Title text={"My skills"}/></LightSpeed>
                     <div className={style.skills}>
                         <Rotate  top left >

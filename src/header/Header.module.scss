@@ -3,5 +3,8 @@
     background-color: #0e0f1e;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    position: fixed;
+    width: 90%;
+    z-index: 2;
 }

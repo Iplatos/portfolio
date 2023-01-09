@@ -4,17 +4,19 @@
 .project {
   border: 1px solid $ItemsBorderColor;
   border-radius: 10px;
-  width: 400px;
+  width: 90%;
   text-align: center;
   min-height: max-content;
   flex-wrap: wrap;
   margin-top: 17px;
+  color:white;
   background-color: $bgSecondColor;
   padding: 15px;
 
+
   .MyProjectImage {
     height: 300px;
-    width: 100%;
+    width: 90%;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -45,7 +47,6 @@
     }
 
     .projectDiscription {
-
       @include text((Radio Canada, sans-serif),16px, 1.6);
       font-family: Radio Canada, sans-serif;
       font-weight: 400;

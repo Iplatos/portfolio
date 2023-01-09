@@ -6,7 +6,7 @@ import LightSpeed from 'react-reveal/LightSpeed';
 import {Button} from "./../common/Components/button/Button"
 const Contacts = () => {
     return (
-        <div className={style.contactsContainer}>
+        <div id={"Contacts"} className={style.contactsContainer}>
             <div className={`${styleContainer.container} ${style.contacts}  `}>
                 <Title text={"Contacts"}/>
 <div className={style.formContainer}>

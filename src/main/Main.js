@@ -1,11 +1,10 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import s from "./Main.module.scss"
 import styleContainer from "../common/styles/Container.module.scss"
 import Photo from "./../assets/image/mf3.jpg"
 import ParticlesComponent from "../common/Components/particlesComponent/ParticlesComponent";
 import Roll from 'react-reveal/Roll';
 import Fade from 'react-reveal/Fade';
-import LightSpeed from 'react-reveal/LightSpeed';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-tilt'
 
@@ -17,7 +16,7 @@ const myPhoto = {
 
 
     return (
-        <div className={s.mainBlock}>
+        <div id="Main" className={s.mainBlock}>
 
             <div className={styleContainer.container}>
 

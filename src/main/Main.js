@@ -10,9 +10,9 @@ import Tilt from 'react-tilt'
 
 
 const Main = () => {
-const myPhoto = {
-    backgroundImage: `url(${Photo})`
-}
+    const myPhoto = {
+        backgroundImage: `url(${Photo})`
+    }
 
 
     return (
@@ -20,20 +20,20 @@ const myPhoto = {
 
             <div className={styleContainer.container}>
 
-            <div className={s.text}>
-                <ParticlesComponent className={s.particles} />
-                < Fade left><span className={s.greetingsTitle}>Hi There</span></Fade>
-                <Roll right><h1 className={s.titleName}>I'm Kirkor <span>Filippov</span></h1></Roll>
-                <p className={s.greetingsTitle}>
-                    <ReactTypingEffect text={["Frontend Developer"]} />
-                </p>
+                <div className={s.text}>
+                    <ParticlesComponent className={s.particles}/>
+                    <Fade left><span className={s.greetingsTitle}>Hi There</span></Fade>
+                    <Roll right><h1 className={s.titleName}>I'm Kirkor <span>Filippov</span></h1></Roll>
+                    <p className={s.greetingsTitle}>
+                        <ReactTypingEffect text={["Frontend Developer"]}/>
+                    </p>
 
 
-            </div>
+                </div>
 
                 <div className={s.PhotoContainer}>
-                    <Roll right>
-                        <Tilt className="Tilt" options={{ max : 45 }} style={{ height: 500, width: 300 }} >
+                    <Roll left>
+                        <Tilt className="Tilt" options={{max: 45}} style={{height: 500, width: 300}}>
                             <div className={s.photo} style={myPhoto}></div>
                         </Tilt>
 

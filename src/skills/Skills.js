@@ -5,6 +5,7 @@ import Skill from "../skill/Skill";
 import Title from "../common/Components/Title/Title";
 import JsPNGIcon from "./../assets/image/js.png"
 import ReactPNGIcon from "./../assets/image/react.png"
+import ReduxPNGIcon from "./../assets/image/redux-react-javascript-freecodecamp-npm-png-favpng-6F2x50visKuC0trBQ0952Cm1E_t.jpg"
 import CssPngIcon from "./../assets/image/css.png"
 import Rotate from 'react-reveal/Rotate';
 import LightSpeed from 'react-reveal/LightSpeed';
@@ -21,21 +22,26 @@ const Skills = () => {
     const JsIcon = {
         backgroundImage: `url(${JsPNGIcon})`
     }
+    const ReduxIcon = {
+        backgroundImage: `url(${ReduxPNGIcon})`
+    }
     return (
         <div className={style.skillBlock}>
 
-                < div id="Skills" className={` ${style.skillsContainer} ${styleContainer.container} `}>
-                    <LightSpeed top><Title text={"My skills"}/></LightSpeed>
-                    <div className={style.skills}>
-                            <Rotate  top left >
-                                <Skill title={"JS"} style={JsIcon} discription={"описание не очень большое"}/>
+            < div id="Skills" className={` ${style.skillsContainer} ${styleContainer.container} `}>
+                <LightSpeed top><Title text={"My skills"}/></LightSpeed>
+                <div className={style.skills}>
+                    <Rotate top left>
+                        <Skill title={"JS"} style={JsIcon} discription={"описание не очень большое"}/>
                         <Skill title={"CSS"} style={CssIcon}
                                discription={"описание не очень большое,не очень большое"}/>
                         <Skill title={"REACT"} style={ReactIcon}
                                discription={"описание не очень большое. Очень не большое. большое но не очень. но не большое "}/>
-                        </Rotate>
-                    </div>
+                        <Skill title={"REDUX"} style={ReduxIcon}
+                               discription={"описание не очень большое. Очень не большое. большое но не очень. но не большое "}/>
+                    </Rotate>
                 </div>
+            </div>
 
         </div>
 

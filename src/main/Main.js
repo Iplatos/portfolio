@@ -19,7 +19,6 @@ const Main = () => {
         <div id="Main" className={s.mainBlock}>
 
             <div className={styleContainer.container}>
-
                 <div className={s.text}>
                     <ParticlesComponent className={s.particles}/>
                     <Fade left><span className={s.greetingsTitle}>Hi There</span></Fade>
@@ -27,17 +26,12 @@ const Main = () => {
                     <p className={s.greetingsTitle}>
                         <ReactTypingEffect text={["Frontend Developer"]}/>
                     </p>
-
-
                 </div>
-
                 <div className={s.PhotoContainer}>
                     <Roll left>
                         <Tilt className="Tilt" options={{max: 45}} style={{height: 500, width: 300}}>
                             <div className={s.photo} style={myPhoto}></div>
                         </Tilt>
-
-
                     </Roll>
                 </div>
             </div>

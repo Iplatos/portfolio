@@ -5,11 +5,10 @@
   display: flex;
   width: 90%;
   justify-content: space-evenly;
-  border-radius: 10px;
-
 
   a{
-    color:$greetingsAndButtonColor;
+   color:$greetingsAndButtonColor;
+    width: max-content;
     &:hover{
     text-decoration: none;
     color: white;

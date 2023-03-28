@@ -5,10 +5,8 @@ import {Button} from "../common/Components/button/Button";
 const MyProject = (props) => {
     return (
         <div className={style.project}>
-
             <div className={style.MyProjectImage} style={props.style}>
-
-                <Button title={"WATCH"}/>
+                <Button link={props.link} title={"WATCH"}/>
 
 
             </div>

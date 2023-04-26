@@ -3,7 +3,7 @@ import style from "./MyProjects.module.scss"
 import styleContainer from "../common/styles/Container.module.scss";
 import MyProject from "../myProject/MyProject";
 import Title from "../common/Components/Title/Title";
-import todoImage from "./../assets/image/cards.jpg"
+import todoImage from "./../assets/image/todoList.png"
 import Cards from "./../assets/image/cards.jpg"
 import Zoom from 'react-reveal/Zoom';
 

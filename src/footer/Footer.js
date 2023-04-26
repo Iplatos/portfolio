@@ -24,7 +24,7 @@ const Footer = () => {
                         <div className={style.item}></div>
                         <div className={style.item}></div>
                     </div>
-                    <div className={style.footerText}> © 2022 Все права защищены</div>
+                    <div className={style.footerText}> © 2022 All Rights Reserved.</div>
                 </Flip>
 
             </div>

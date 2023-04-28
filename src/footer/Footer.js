@@ -16,7 +16,7 @@ const Footer = () => {
         <div className={style.footerContainer}>
             <div className={`${styleContainer.container} ${style.footer}  `}>
                 <Flip>
-                    <div className={style.footerText}>Kirkor Filippov</div>
+                    <div className={style.footerText}>Ihar Platonau</div>
                     <div className={style.items}>
                         <a target="_blank" href={"https://www.codewars.com/users/Iplatos"} className={style.item}
                            style={codewarsLogo}></a>

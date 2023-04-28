@@ -2,8 +2,8 @@
 @import "src/common/styles/sass/variables";
 
 .skill {
-    width: 200px;
-    height: 100%;
+    width: max-content;
+    height: max-content;
     background-color:  $bgSecondColor;
     display: flex;
     justify-content: center;
@@ -19,20 +19,21 @@
     .title{
         color:#fff;
         font-family: 'Radio Canada', sans-serif;
+        margin-bottom: 0;
     }
     .icon {
-    height: 60px;
-    width: 60px;
+    height: 120px;
+    width: 120px;
     background-position: center;
-    background-size: 62px;
+    background-size: 125px;
     background-repeat: no-repeat;
-    border-radius: 50px;
+    border-radius: 5px;
     border: 3px solid $greetingsAndButtonColor;
         & img{
             height: 100%;
         }
 }
-    .discription {
+    .description {
         display: flex;
         justify-content: center;
         text-align: center;

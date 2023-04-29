@@ -23,8 +23,9 @@ const MyProjects = () => {
                 <Title text={"My Projects"}/>
                 <div className={style.projects}>
                     <Zoom><MyProject title={"Todo list"} style={social}
+                                     link={"https://iplatos.github.io/todo_toolkit_thunk"}
                                      description={"SPA for managing to-do lists and their items."}
-                                     GitHubLink={""}/></Zoom>
+                                     GitHubLink={"https://github.com/Iplatos/todo_toolkit_thunk"}/></Zoom>
                     <Zoom><MyProject title={"Cards"} style={todos}
                                      link={"https://artyomsamsonchik.github.io/friday-project/#/login"}
                                      description={"SPA for learning by cards."}

@@ -25,11 +25,17 @@ const MyProjects = () => {
                     <Zoom><MyProject title={"Todo list"} style={social}
                                      link={"https://iplatos.github.io/todo_toolkit_thunk"}
                                      description={"SPA for managing to-do lists and their items."}
-                                     GitHubLink={"https://github.com/Iplatos/todo_toolkit_thunk"}/></Zoom>
+                                     GitHubLink={"https://github.com/Iplatos/todo_toolkit_thunk"}
+                                     login={"free@samuraijs.com"}
+                                     password={"free"}
+                    /></Zoom>
                     <Zoom><MyProject title={"Cards"} style={todos}
                                      link={"https://artyomsamsonchik.github.io/friday-project/#/login"}
                                      description={"SPA for learning by cards."}
-                                     GitHubLink={"https://github.com/ArtyomSamsonchik/friday-project"}/></Zoom>
+                                     GitHubLink={"https://github.com/ArtyomSamsonchik/friday-project"}
+                                     login={"nya-admin@nya.nya"}
+                                     password={"1qazxcvBG"}
+                    /></Zoom>
                 </div>
             </div>
 

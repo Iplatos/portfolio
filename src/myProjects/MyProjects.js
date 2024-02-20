@@ -5,6 +5,7 @@ import MyProject from "../myProject/MyProject";
 import Title from "../common/Components/Title/Title";
 import todoImage from "./../assets/image/todoList.png"
 import Cards from "./../assets/image/cards.jpg"
+import CardsRTK from "./../assets/image/cardsRTK.jpg"
 import Zoom from 'react-reveal/Zoom';
 
 
@@ -15,6 +16,9 @@ const MyProjects = () => {
     }
     const todos = {
         backgroundImage: `url(${Cards})`,
+    }
+    const cards = {
+        backgroundImage: `url(${CardsRTK})`,
     }
 
     return (
@@ -35,6 +39,13 @@ const MyProjects = () => {
                                      GitHubLink={"https://github.com/ArtyomSamsonchik/friday-project"}
                                      login={"nya-admin@nya.nya"}
                                      password={"1qazxcvBG"}
+                    /></Zoom>
+                    <Zoom><MyProject title={"Cards"} style={cards}
+                                     link={"https://cards-hunzah.vercel.app/"}
+                                     description={"SPA for training using cards. Made using RTK Query"}
+                                     GitHubLink={"https://github.com/hunzah/Cards"}
+                                     login={"petrvasilev011@gmail.com"}
+                                     password={"12345"}
                     /></Zoom>
                 </div>
             </div>

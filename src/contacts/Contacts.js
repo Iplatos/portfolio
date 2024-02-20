@@ -11,12 +11,12 @@ const Contacts = () => {
                 <Title text={"Contacts"}/>
 <div className={style.formContainer}>
     <Flip>
-        <form className={style.form}>
+     {/*   <form className={style.form}>
             <input className={style.formInput} placeholder={"Enter your name"}></input>
             <input className={style.formInput} placeholder={"Enter your e-mail"}></input>
             <textarea className={style.formTextarea} placeholder={"textarea"}/>
             <Button title={"SEND MAIL"}/>
-        </form>
+        </form>*/}
     </Flip>
 
 </div>

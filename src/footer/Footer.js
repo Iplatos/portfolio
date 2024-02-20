@@ -32,7 +32,7 @@ const Footer = () => {
                     <div className={style.items}>
                         <a target="_blank" href={"https://www.codewars.com/users/rsschool_4d3751abbf26b5e7"} className={style.item}
                            style={codewarsLogo}></a>
-                        <a target="_blank" href={"https://www.codewars.com/users/Iplatos"} className={style.item}
+                        <a target="_blank" href={"https://t.me/IngvarPla"} className={style.item}
                            style={telegramLogo}></a>
                         <a target="_blank" href={"https://github.com/Iplatos"} className={style.item}
                            style={GitHubLogo}></a>

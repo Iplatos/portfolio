@@ -14,6 +14,7 @@ import TypeScriptPNGIcon from "./../assets/image/Typescript.png"
 import HTMLPNGIcon from "./../assets/image/HTML.png"
 import PostmanPNGIcon from "./../assets/image/Postman.png"
 import GitPNGIcon from "./../assets/image/github.jpg"
+import NextJSIcon from "./../assets/image/download.jpg"
 
 const Skills = () => {
     const CssIcon = {
@@ -45,6 +46,9 @@ const Skills = () => {
     const ReduxIcon = {
         backgroundImage: `url(${ReduxPNGIcon})`
     }
+    const NextJS = {
+        backgroundImage: `url(${NextJSIcon})`
+    }
     return (
         <div className={style.skillBlock}>
 
@@ -52,18 +56,19 @@ const Skills = () => {
                 <LightSpeed top><Title text={"My skills"}/></LightSpeed>
                 <div className={style.skills}>
                     <Rotate top left>
-                        <Skill title={"HTML"} style={HTLMIcon} discription={"описание не очень большое"}/>
-                        <Skill title={"JS"} style={JsIcon} discription={"описание не очень большое"}/>
+                        <Skill title={"HTML"} style={HTLMIcon} />
+                        <Skill title={"JS"} style={JsIcon}/>
                         <Skill title={"CSS"} style={CssIcon}
-                               discription={"описание не очень большое,не очень большое"}/>
+                             />
                         <Skill title={"TypeScript"} style={TypeScriptIcon}
-                               discription={"описание не очень большое,не очень большое"}/>
+                               />
                         <Skill title={"REACT"} style={ReactIcon}
-                               discription={"описание не очень большое. Очень не большое. большое но не очень. но не большое "}/>
+                            />
                         <Skill title={"REDUX"} style={ReduxIcon}
-                               discription={"описание не очень большое. Очень не большое. большое но не очень. но не большое "}/>
-                        <Skill title={"Postman"} style={PostmanIcon} discription={"описание не очень большое"}/>
-                        <Skill title={"Git"} style={GitHubIcon} discription={"описание не очень большое"}/>
+                              />
+                        <Skill title={"Postman"} style={PostmanIcon}/>
+                        <Skill title={"Git"} style={GitHubIcon}/>
+                        <Skill title={"Next JS"} style={NextJS}/>
 
                     </Rotate>
 

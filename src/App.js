@@ -15,7 +15,7 @@ function App() {
             <Main/>
             <Skills/>
             <MyProjects/>
-            <AboutWork/>
+          {/*  <AboutWork/>*/}
             <Contacts/>
             <Footer/>
 

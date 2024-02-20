@@ -39,7 +39,7 @@ const Footer = () => {
 
 
                     </div>
-                    <div className={style.footerText}> © 2022 All Rights Reserved.</div>
+                    <div className={style.footerText}> © 2024 All Rights Reserved.</div>
                 </Flip>
 
             </div>

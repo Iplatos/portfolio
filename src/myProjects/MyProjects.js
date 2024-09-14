@@ -5,8 +5,9 @@ import MyProject from "../myProject/MyProject";
 import Title from "../common/Components/Title/Title";
 import todoImage from "./../assets/image/todoList.png"
 import Cards from "./../assets/image/cards.jpg"
-import CardsRTK from "./../assets/image/cardsRTK.jpg"
 import Zoom from 'react-reveal/Zoom';
+import CardsRTK from "./../assets/image/cardsRTK.jpg"
+import pizzaJPG from "./../assets/image/pizza.jpg"
 
 
 const MyProjects = () => {
@@ -20,7 +21,9 @@ const MyProjects = () => {
     const cards = {
         backgroundImage: `url(${CardsRTK})`,
     }
-
+    const pizza = {
+        backgroundImage: `url(${pizzaJPG})`,
+    }
     return (
         <div id="Projects" className={style.myProjectBlock}>
             <div className={`${styleContainer.container} ${style.myProjects}  `}>
@@ -47,6 +50,14 @@ const MyProjects = () => {
                                      login={"petrvasilev011@gmail.com"}
                                      password={"12345"}
                     /></Zoom>
+                    <Zoom>
+                    <MyProject title={"Pizza"} style={pizza}
+                                                  link={"https://pizza-ccli-hg67z3b3j-platonovs-projects.vercel.app/"}
+                                                  description={"SPA for ordering pizza . Made using RTK Query, TypeScript,React Router v6 "}
+                                                  GitHubLink={"https://github.com/Iplatos/pizza"}
+                                                  login={"-"}
+                                                  password={"-"}
+                /></Zoom>
                 </div>
             </div>
 
